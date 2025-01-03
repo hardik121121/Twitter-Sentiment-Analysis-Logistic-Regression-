@@ -1,0 +1,41 @@
+**info.txt**
+
+---
+
+### 📊 ** Twitter Sentiment Analysis Model** 🧠
+
+This project is focused on sentiment analysis, which determines whether a tweet is **positive** or **negative**. The model leverages Natural Language Processing (NLP) techniques, specifically **Logistic Regression** 🧑‍💻, to classify tweets based on the content of the text.
+
+---
+
+### 🧩 **How It Works:**
+1. **Data Collection** 📥: The dataset contains **1.6 million tweets** collected from Twitter.
+2. **Preprocessing** 🔄:
+   - Tweets are cleaned by removing special characters and stopwords ❌.
+   - Text is converted to lowercase and **stemmed** using the **Porter Stemmer** 💬.
+3. **Vectorization** 🔠: The text data is converted into numerical form using **TF-IDF Vectorizer** 📈, which calculates word importance based on frequency and relevance.
+4. **Modeling** 🤖: The logistic regression model is trained on the cleaned, vectorized data to predict sentiment (positive/negative).
+5. **Accuracy** 📏: 
+   - **Training Accuracy**: **XX%**
+   - **Testing Accuracy**: **XX%**
+
+---
+
+### ⚙️ **Features:**
+- **Text Input** ✍️: You can input your own tweet and get real-time predictions on whether it's positive or negative.
+- **Model Performance** 📈: The app visualizes the model’s performance, showing training and testing accuracy.
+
+---
+
+### 🚀 **Technologies Used:**
+- **Python** 🐍
+- **Streamlit** 🌐 (for app development)
+- **Scikit-learn** 🧪 (for machine learning)
+- **TF-IDF** 🔢 (for feature extraction)
+- **Logistic Regression** 📉
+- **Matplotlib** 📊 and **Seaborn** 📈 (for visualizations)
+
+---
+
+### ❤️ **Made with love by Hardik Arora** 💙
+
